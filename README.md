@@ -5,7 +5,7 @@ A: QUESTION:
 What factors influence churn rate?
 
 
-C1: PLAN TO ASSESS QUALITY OF DATA:
+C1: PLAN TO ASSESS QUALITY OF DATA: 
 
 
 To find missing values: I downloaded numpy pandas and used isna() and isnull() function to see if there are any missing values in the data. 
