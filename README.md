@@ -74,6 +74,7 @@ Outliers: The columns that have outliers are: Income, Outage_sec_perweek, Email,
  
 
 D2: JUSTIFICATION OF MITIGATION METHODS:
+
 I did not find duplicates in the data but if I did, I would drop the duplicated rows.
 
 For the missing values, I used the mean if the data was normally distributed, the median when the data is skewed or bi-modal and used the mode when it was a categorical data. 
@@ -86,6 +87,7 @@ For the missing values, I used the mean if the data was normally distributed, th
 -	'TechSupport' I filled the NAs with the mode because it is categorical data 
 -	'Tenure' I filled the NAs with the mode because it is categorical data
 -	‘Bandwidth_GB_Year' I filled the NAs with the mode because it is categorical data
+  
 For outliers I first used a boxplot to plot all the categorical values and see if they had outliers. Then for the ones that did have outliers I decided to impute them using the median for all the variables. 
 The variables that I treated where: Income, Outage_sec_perweek, Email, Contacts, Yearly_equip_failure, and MonthlyCharge.
 
